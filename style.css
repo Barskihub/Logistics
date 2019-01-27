@@ -1,0 +1,158 @@
+/*FONT AVENIR*/
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('font/AvenirNextCyr-Light.eot');
+    src: local('Avenir Next Cyr Light'), local('font/AvenirNextCyr-Light'),
+    url('font/AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/AvenirNextCyr-Light.woff') format('woff'),
+    url('font/AvenirNextCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/*HTML Sittings*/
+html {
+    background: url("http://ipic.su/img/img7/fs/Geometryhigh.1548603263.png") no-repeat;
+    background-size: 100%;
+    font-family: "Avenir Next Cyr";
+}
+/*HEADER STYLE CSS*/
+#header {
+    text-align: left;
+    margin: 27rem 0 0 5rem;
+}
+#title {
+    color: #AC8352;
+    border: none;
+    font-size: 4rem;
+}
+#under_logo_name {
+    font-size: 2.495rem;
+    color: #5A3508;
+    margin-top: -40px;
+}
+/*CHAPTERS*/
+
+#ch_logistics {
+    color: #5A3508;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 8rem 0 4rem;
+}
+.chapter1, .chapter2 {
+    text-align: left;
+}
+#or {
+    margin-top: -0.7rem;
+}
+.chapter2 {
+    margin-top: -1rem;
+}
+/*CHAPTERS WITH PNG*/
+#ch_img_sec {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#left_text {
+    padding: 0 6rem 0 4rem;
+}
+.h-chapter1 {
+    font-size: 3rem;
+    color: #AC8352;
+    letter-spacing: 0.37px;
+}
+#lt-p {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: justify;
+}
+#img-div {
+    padding: 4.5rem 0 0 0;
+}
+/*2 CHAPTERS*/
+#ch_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#ww-ch {
+    padding: 0 6rem 0 4rem;
+}
+#sit-ch {
+    padding: 0 8rem 0 2rem;
+}
+.h-chapter {
+    font-size: 3rem;
+    color: #AC8352;
+    letter-spacing: 0.37px;
+    text-align: center;
+}
+#p-chapter {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: justify;
+}
+#sit-ul {
+    font-size: 2rem;
+    color: #5A3508;
+    text-align: justify;
+    letter-spacing: -0.3px;
+}
+/*FOOTER*/
+/*LINK*/
+footer {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: -1rem;
+}
+/*Geometry low*/
+#footer-img {
+    width: 99vw;
+}
+
+/*MEDIA*/
+@media (max-width: 850px) {
+    html {
+        background: none;
+    }
+    #header {
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    #ch_2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    #img-div, .img-footer {
+        display: none;
+    }
+    #ch_img_sec {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    #under_logo_name {
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+
+
+
