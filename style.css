@@ -13,7 +13,7 @@
 html {
     background: url("http://ipic.su/img/img7/fs/Geometryhigh.1548603263.png") no-repeat;
     background-size: 100%;
-    font-family: "Avenir Next Cyr";
+    font-family: "Avenir Next Cyr", "Helvetica Neue";
 }
 /*HEADER STYLE CSS*/
 #header {
@@ -148,11 +148,3 @@ footer {
         margin-top: -20px;
     }
 }
-
-
-
-
-
-
-
-
