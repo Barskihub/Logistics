@@ -101,6 +101,12 @@ html {
     text-align: justify;
     letter-spacing: -0.3px;
 }
+li {
+  list-style-type: none;
+}
+li::before {
+  content: "✍︎";
+}
 /*FOOTER*/
 /*LINK*/
 footer {
