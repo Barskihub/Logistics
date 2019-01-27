@@ -112,6 +112,10 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     padding: -1rem;
 }
+#f-p a:hover {
+  color: #5A3508;
+  transition: 0.2s;
+}
 /*Geometry low*/
 #footer-img {
     width: 99vw;
